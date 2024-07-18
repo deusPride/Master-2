@@ -1,0 +1,31 @@
+% Paquets de base
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+
+% Marges
+\geometry{a4paper, margin=1in}
+
+% En-tête et pied de page
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[LE,RO]{\slshape \rightmark}
+\fancyhead[LO,RE]{\slshape \leftmark}
+\fancyfoot[C]{\thepage}
+
+% Hyperliens
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+% Commandes personnalisées
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}

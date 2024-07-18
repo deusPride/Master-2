@@ -1,0 +1,88 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage{preamble}
+
+\begin{document}
+
+% Page de titre
+\input{parts/coverpage}
+\newpage
+
+% Dédicace
+\chapter*{Dédicace}
+\addcontentsline{toc}{chapter}{Dédicace}
+\input{parts/dedication}
+\newpage
+
+% Remerciements
+\chapter*{Remerciements}
+\addcontentsline{toc}{chapter}{Remerciements}
+\input{parts/acknowledgements}
+\newpage
+
+% Table des matières
+\tableofcontents
+\newpage
+
+% Liste des figures
+\listoffigures
+\newpage
+
+% Liste des tableaux
+\listoftables
+\newpage
+
+% Notations et abréviations
+\chapter*{Notations et abréviations}
+\addcontentsline{toc}{chapter}{Notations et abréviations}
+\input{parts/notation}
+\newpage
+
+% Résumé
+\chapter*{Résumé}
+\addcontentsline{toc}{chapter}{Résumé}
+\input{parts/resume}
+\newpage
+
+% Abstract
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\input{parts/abstract}
+\newpage
+
+% Introduction générale
+\chapter*{Introduction générale}
+\addcontentsline{toc}{chapter}{Introduction générale}
+\input{parts/introduction}
+\newpage
+
+% Chapitre 1
+\chapter*{Chapitre 1 : Titre du Chapitre 1}
+\addcontentsline{toc}{chapter}{Chapitre 1 : Titre du Chapitre 1}
+\input{parts/chapter1}
+\newpage
+
+% Chapitre 2
+\chapter*{Chapitre 2 : Titre du Chapitre 2}
+\addcontentsline{toc}{chapter}{Chapitre 2 : Titre du Chapitre 2}
+\input{parts/chapter2}
+\newpage
+
+% Chapitre 3
+\chapter*{Chapitre 3 : Titre du Chapitre 3}
+\addcontentsline{toc}{chapter}{Chapitre 3 : Titre du Chapitre 3}
+\input{parts/chapter3}
+\newpage
+
+% Conclusion
+\chapter*{Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}
+\input{parts/conclusion}
+\newpage
+
+% Bibliographie
+\bibliographystyle{plain}
+\bibliography{biblio/references}
+\addcontentsline{toc}{chapter}{Bibliographie}
+
+
+\end{document}
